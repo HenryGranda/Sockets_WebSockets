@@ -3,7 +3,7 @@ import socket
 import threading
 
 host = '127.0.0.1'
-port = 12346
+port = 8080
 
 # Crear y configurar el socket seguro
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
